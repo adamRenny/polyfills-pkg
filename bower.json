@@ -1,12 +1,12 @@
 {
-  "name": "polyfill",
-  "version": "0.1.0",
-  "homepage": "https://github.com/adamRenny/polyfill",
+  "name": "polyfills-pkg",
+  "version": "0.1.1",
+  "homepage": "https://github.com/adamRenny/polyfills-pkg",
   "authors": [
     "Adam Ranfelt <adamRenny@gmail.com>"
   ],
   "description": "JavaScript Polyfills - set includes Array.indexOf and Function.bind",
-  "main": "dist/polyfill.js",
+  "main": "dist/polyfills-pkg.js",
   "keywords": [
     "polyfill",
     "array.indexOf",
