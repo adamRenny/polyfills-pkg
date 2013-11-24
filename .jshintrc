@@ -1,0 +1,13 @@
+{
+    "undef": true,
+    "unused": true,
+    "curly": true,
+    "camelcase": true,
+    "forin": true,
+    "eqeqeq": false,
+    "indent": 4,
+    "noarg": true,
+    "noempty": true,
+    "quotmark": "single",
+    "trailing": true
+}

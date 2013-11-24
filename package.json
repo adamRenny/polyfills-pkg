@@ -1,0 +1,38 @@
+{
+  "name": "polyfill",
+  "version": "0.1.0",
+  "description": "JavaScript Polyfills - set includes requestAnimationFrame, performance.now, Array.indexOf, and Function.bind",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamRenny/polyfill.git"
+  },
+  "keywords": [
+    "polyfill",
+    "performance",
+    "performance.now",
+    "requestAnimationFrame",
+    "rAF",
+    "bind",
+    "indexOf"
+  ],
+  "author": "Adam Ranfelt <adamRenny@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamRenny/polyfill/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "grunt": "~0.4.2",
+    "expect.js": "~0.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-mocha-cli": "~1.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-plato": "~0.2.1"
+  }
+}
