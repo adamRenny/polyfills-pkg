@@ -67,4 +67,13 @@ describe('function.bind', function() {
 
         expect(obj.foo).to.be(true);
     });
+
+    it('should return a value if the main function also returns a value', function() {
+        function test() { return true; }
+
+        var boundTest = test.bind({});
+
+        expect(test()).to.be(true);
+        expect(boundTest()).to.be(true);
+    });
 })
